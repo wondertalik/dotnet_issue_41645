@@ -47,10 +47,6 @@
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>ConfirmEmail.Designer.cs</LastGenOutput>
         </EmbeddedResource>
-        <EmbeddedResource Remove="Resources\Areas\Identity\Pages\Account\NewUserCandidate.resx" />
-        <EmbeddedResource Remove="Resources\Areas\Identity\Pages\Account\NewUserCandidate.fr.resx" />
-        <EmbeddedResource Remove="Resources\Areas\Identity\Pages\Account\NewUserCandidate.es-es.resx" />
-        <EmbeddedResource Remove="Resources\Areas\Identity\Pages\Account\NewUserCandidate.en.resx" />
         <EmbeddedResource Update="Resources\Areas\Identity\Pages\Account\RegisterCandidate.resx">
             <Generator>ResXFileCodeGenerator</Generator>
             <LastGenOutput>RegisterCandidate.Designer.cs</LastGenOutput>
@@ -134,108 +130,6 @@
 
     <ItemGroup>
         <AdditionalFiles Include="Areas\Checkout\Pages\Checkout\Checkout.cshtml" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Candidate\AddExperience.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Candidate\Overview.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Dashboard\DashboardAddJob.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Dashboard\DashboardCandidates.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Dashboard\DashboardCandidatesToJob.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Dashboard\DashboardEditJob.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Dashboard\DashboardJobs.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\Pages\Dashboard\DashboardUserProfile.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\_ViewImports.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Dashboard\_ViewStart.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\AccessDenied.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\ConfirmEmail.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\EntrepriseProfile.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\ForgotPassword.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\LoginCandidate.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\LoginCompany.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Logout.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\DeletePersonalData.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\Email.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\EnableAuthenticator.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\Index.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\PersonalData.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\SetPassword.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\_Layout.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\_StatusMessage.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\RegisterCandidate.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\RegisterCandidateEducationData.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\RegisterCandidatePersonalData.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\RegisterCandidateProfessionalExperienceData.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\RegisterCompany.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\RegisterConfirmation.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\ResendEmailConfirmation.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\ResetPassword.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\_StatusMessage.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Account\_ViewImports.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\Categorys\Index.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\_ViewImports.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Identity\Pages\_ViewStart.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Jobs\Pages\Jobs\JobInfo.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Jobs\Pages\Jobs\JobPage.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Jobs\Pages\Jobs\MyJob.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Jobs\Pages\Jobs\_SelectLanguagePartial.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Jobs\Pages\_ViewImports.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Jobs\Pages\_ViewStart.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Contact\Pages\Contact.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Contact\Pages\_ViewImports.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Contact\Pages\_ViewStart.cshtml" />
-        <_ContentIncludedByDefault Remove="Areas\Contact\_ValidationScriptsPartial.cshtml" />
-        <_ContentIncludedByDefault Remove="Pages\Shared\Components\EmailConfirmation\Default.cshtml" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\Contact.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\Home.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\JobInfo.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\JobPage.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\MyJob.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\SettingNewJob.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\SettingsMyJobs.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\css\SignUp.css" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Brand-Icons.svg" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Brand-Icons.ttf" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Brand-Icons.woff" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Feather-Icons.svg" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Feather-Icons.ttf" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Feather-Icons.woff" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Line-Awesome.svg" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Line-Awesome.ttf" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Line-Awesome.woff" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Material-Icons.svg" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Material-Icons.ttf" />
-        <_ContentIncludedByDefault Remove="wwwroot\fonts\Material-Icons.woff" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\areas\identity\pages\account\register-candidate-education-data.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\areas\identity\pages\account\register-candidate-personal-data.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\areas\identity\pages\account\register-candidate-professional-experience-data.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\bootstrap-select.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\bootstrap-slider.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\chart.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\clipboard.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\counterup.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\custom.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\Dashboar-Add-Job.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\DashboardAddJobs.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\infobox.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\JobInfo.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\jquery-3.3.1.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\jquery-migrate-3.0.0.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\magnific-popup.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\maps.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\markerclusterer.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\mmenu.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\simplebar.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\site.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\slick.min.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\snackbar.js" />
-        <_ContentIncludedByDefault Remove="wwwroot\js\tippy.all.min.js" />
     </ItemGroup>
 
 </Project>
